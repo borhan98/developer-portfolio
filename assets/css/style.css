@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* ----------------------
+    Common Section Start
+--------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.btn_common {
+    padding: 15px 35px;
+    background: var(--primary-color);
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    color: var(--color-white);
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+.btn_common:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+.sec_title {
+    color: var(--color-title);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.sec_descrip {
+    color: var(--color-descrip);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px auto;
+}
+section {
+    margin-top: 130px;
+}
+:root {
+    --color-title: #181818;
+    --color-descrip: #757575;
+    --color-nav-font: #474747;
+    --color-white: #FFFFFF;
+    --primary-color: #FD6E0A;
+    --background-color: #fde6d6;
+}
+/* ----------------------
+    Common Section End
+--------------------------*/
+/* ----------------------
+    Header Section Start
+--------------------------*/
+#header {
+    background-color: var(--background-color);
+    background: url(../images/developer.png) no-repeat;
+    background-position: bottom left;
+}
+/* -- Nav Start --*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 220px;
+    padding: 50px 0;
+}
+.nav .folio_title {
+    color: var(--color-title);
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.nav .folio_title > span {
+    color: var(--primary-color);
+}
+.nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav ul li a {
+    color: var(--color-nav-font);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/*-- Nav End --*/
+/*-- Banner Start --*/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+    background: url(../images/header_bg.png) no-repeat;
+    background-position: bottom right;
+}
+.banner_text {
+    max-width: 585px;
+}
+.banner_text .greeting {
+    color: var(--color-nav-font);
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.banner_text .profile_name {
+    color: var(--color-title);
+    font-size: 85px;
+    font-weight: 700;
+    margin: 5px 0 20px;
+}
+.banner_text .profile_descrip {
+    color: var(--color-descrip);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner_text .btn_margin {
+    margin-right: 30px;
+}
+.banner_img {
+    width: 584px;
+}
+/*-- Banner End --*/
+/* ----------------------
+    Header Section End
+--------------------------*/
+/* ----------------------
+    Main Section Start
+--------------------------*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*-- About Start --*/
+.about {
+    padding: 130px;
+    background-color: var(--background-color);
+}
+.about > .sec_descrip {
+    max-width: 830px;
+}
+.about_info_contain {
+    display: flex;
+    justify-content: space-around;
+}
+.about_info_contain .about_info {
+    text-align: center;
+}
+.about_info .info_name {
+    color: var(--color-descrip);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about_info .info_value {
+    color: var(--color-nav-font);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+/*-- About End --*/
+/*-- What I Do Start --*/
+.i_do > .sec_descrip {
+    max-width: 910px;
+}
+.i_do .all_item_i_do {
+    display: flex;
+    justify-content: space-between;
+}
+.i_do .single_item_i_do {
+    max-width: 267px;
+    padding: 33px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.i_do .single_item_i_do .item_name {
+    color: var(--color-title);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 0;
+}
+.i_do .single_item_i_do > .sec_descrip {
+    text-align: left;
+}
+/*-- What I Do End --*/
+
+/* ----------------------
+    Main Section End
+--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------
+    Common Section Start
+--------------------------*/
+/* ----------------------
+    Common Section Start
+--------------------------*/
