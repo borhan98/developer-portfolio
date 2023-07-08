@@ -176,6 +176,7 @@ main {
 .i_do .all_item_i_do {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .i_do .single_item_i_do {
     max-width: 267px;
@@ -195,7 +196,47 @@ main {
     text-align: left;
 }
 /*-- What I Do End --*/
-
+/*-- My Resume Start --*/
+.resume > .sec_title {
+    margin-bottom: 115px;
+}
+.resume_contain {
+    display: flex;
+    justify-content: space-between;
+}
+.resume_contain .resume_clm {
+    max-width: 558px;
+}
+.resume_clm .resume_title {
+    color: var(--color-nav-font);
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume_item .dept {
+    color: var(--color-nav-font);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+}
+.resume_item .institute {
+    color: var(--color-descrip);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume_item .descrip {
+    color: var(--color-descrip);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 510px;
+    margin-bottom: 30px;
+}
+.resume .download {
+    text-align: center;
+    margin-top: 50px;
+}
+/*-- My Resume End --*/
 /* ----------------------
     Main Section End
 --------------------------*/
