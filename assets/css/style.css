@@ -62,7 +62,7 @@ section {
 #header {
     background-color: var(--background-color);
     background: url(../images/developer.png) no-repeat;
-    background-position: bottom left;
+    background-position: top left;
 }
 /* -- Nav Start --*/
 .nav {
@@ -236,26 +236,64 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+.resume hr {
+    border: 1px solid #D1D1D1;
+}
 /*-- My Resume End --*/
 /* ----------------------
     Main Section End
 --------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------
-    Common Section Start
+    Footer Section Start
 --------------------------*/
+#footer {
+    margin-top: 115px;
+    padding: 130px;
+    background: var(--background-color);
+}
+.footer_contain {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_contain .foot_clm {
+    max-width: 560px;
+}
+.foot_clm .foot_title {
+    color: var(--color-title);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.foot_clm .foot_descrip {
+    color: var(--color-nav-font);
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.foot_clm .social_link {
+    display: flex;
+    gap: 24px;
+}
+.foot_clm .social_link a {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+.foot_clm input[type="text"], .foot_clm input[type="email"], .foot_clm textarea {
+    width: 100%;
+    padding: 18px 30px;
+    color: var(--color-descrip);
+    border: none;
+    border-radius: 5px;
+    background: var(--color-white);
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.foot_clm input:focus,
+.foot_clm textarea:focus {
+    outline: none;
+}
 /* ----------------------
-    Common Section Start
+    Footer Section Start
 --------------------------*/
